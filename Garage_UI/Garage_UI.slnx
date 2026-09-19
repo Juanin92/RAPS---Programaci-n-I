@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../Garage_Business/Garage_Business.csproj" Id="e98862aa-176e-44e8-a4b3-4be0809c7aa8" />
+  <Project Path="../Garage_Data/Garage_Data.csproj" Id="b4f775a9-04b2-46c4-98eb-a6882b6fffed" />
+  <Project Path="Garage_UI.csproj" Id="1a4761f6-9e8b-4a3e-bf27-ad1b7e1095b9" />
+</Solution>

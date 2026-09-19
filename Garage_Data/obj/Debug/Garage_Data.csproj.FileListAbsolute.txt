@@ -1,0 +1,6 @@
+C:\Users\juano\Desktop\Analista Programador\RAPS\Programación I\Garage_Data\bin\Debug\Garage_Data.dll
+C:\Users\juano\Desktop\Analista Programador\RAPS\Programación I\Garage_Data\bin\Debug\Garage_Data.pdb
+C:\Users\juano\Desktop\Analista Programador\RAPS\Programación I\Garage_Data\obj\Debug\Garage_Data.csproj.AssemblyReference.cache
+C:\Users\juano\Desktop\Analista Programador\RAPS\Programación I\Garage_Data\obj\Debug\Garage_Data.csproj.CoreCompileInputs.cache
+C:\Users\juano\Desktop\Analista Programador\RAPS\Programación I\Garage_Data\obj\Debug\Garage_Data.dll
+C:\Users\juano\Desktop\Analista Programador\RAPS\Programación I\Garage_Data\obj\Debug\Garage_Data.pdb

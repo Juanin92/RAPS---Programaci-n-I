@@ -1,0 +1,2 @@
+C:\Users\juano\Desktop\Analista Programador\RAPS\Programación I\Garage_UI\obj\Debug\Garage_UI.csproj.AssemblyReference.cache
+C:\Users\juano\Desktop\Analista Programador\RAPS\Programación I\Garage_UI\obj\Debug\Garage_UI.csproj.CoreCompileInputs.cache
