@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Garage_Business
 {
-    public class Class1
+    public class Concierto : Evento
     {
+        public string Artista {  get; set; }
+        public string Estilo { get; set; }
     }
 }

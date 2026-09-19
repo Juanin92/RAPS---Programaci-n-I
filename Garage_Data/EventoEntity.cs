@@ -12,6 +12,6 @@ namespace Garage_Data
         public string Nombre {  get; set; }
         public DateTime Fecha { get; set; }
         public string Direccion {  get; set; }
-        public int precion {  get; set; }
+        public int Precio {  get; set; }
     }
 }
