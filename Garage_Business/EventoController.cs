@@ -17,6 +17,7 @@ namespace Garage_Business
                 {
                     ConciertoEntity conciertoEntity = new ConciertoEntity
                     {
+                        Id = concierto.Id,
                         Nombre = concierto.Nombre,
                         Fecha = concierto.Fecha,
                         Direccion = concierto.Direccion,
@@ -30,6 +31,7 @@ namespace Garage_Business
                 {
                     ExposicionEntity exposicionEntity = new ExposicionEntity
                     {
+                        Id = exposicion.Id,
                         Nombre = exposicion.Nombre,
                         Fecha = exposicion.Fecha,
                         Direccion = exposicion.Direccion,
