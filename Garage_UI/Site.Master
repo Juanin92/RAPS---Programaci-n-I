@@ -1,0 +1,37 @@
+﻿<%@ Master="" Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="Garage_UI.Site" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Garage - Productora de Eventos</title>
+	<style>
+		body { font-family: Arial, sans-serif; margin: 20px; background-color: #f8f9fa; }
+		.header { display: flex; align-items: center; justify-content: space-between; padding: 10px; background: #ffffff; border-bottom: 2px solid #ddd; }
+		.logo { height: 50px; }
+		.nav-container { margin: 15px 0; background-color: #333; padding: 8px; }
+		.nav-container a { color: white; text-decoration: none; padding: 8px 12px; }
+		.main-content { background: #ffffff; padding: 20px; border-radius: 4px; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
+	</style>
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+</head>
+<body>
+	<form id="form1" runat="server">
+		<div class="header">
+			<img src="Images/logo.png" alt="Garage Logo" class="logo" />
+			<h2>Administración de Eventos</h2>
+		</div>
+		<div class="nav-container">
+			<asp:Menu ID="MenuPrincipal" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticDisplayLevels="2">
+			</asp:Menu>
+			<asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false" />
+		</div>
+
+		<div class="main-content">
+			<asp:ContentPlaceHolder ID="MainContent" runat="server">
+			</asp:ContentPlaceHolder>
+		</div>
+	</form>
+</body>
+</html>
