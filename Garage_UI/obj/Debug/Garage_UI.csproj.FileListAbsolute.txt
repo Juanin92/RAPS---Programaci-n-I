@@ -1,2 +1,12 @@
 C:\Users\juano\Desktop\Analista Programador\RAPS\Programación I\Garage_UI\obj\Debug\Garage_UI.csproj.AssemblyReference.cache
 C:\Users\juano\Desktop\Analista Programador\RAPS\Programación I\Garage_UI\obj\Debug\Garage_UI.csproj.CoreCompileInputs.cache
+C:\Users\juano\Desktop\Analista Programador\RAPS\Programación I\Garage_UI\bin\Garage_UI.dll.config
+C:\Users\juano\Desktop\Analista Programador\RAPS\Programación I\Garage_UI\bin\Garage_UI.dll
+C:\Users\juano\Desktop\Analista Programador\RAPS\Programación I\Garage_UI\bin\Garage_UI.pdb
+C:\Users\juano\Desktop\Analista Programador\RAPS\Programación I\Garage_UI\bin\Garage_Business.dll
+C:\Users\juano\Desktop\Analista Programador\RAPS\Programación I\Garage_UI\bin\Garage_Data.dll
+C:\Users\juano\Desktop\Analista Programador\RAPS\Programación I\Garage_UI\bin\Garage_Business.pdb
+C:\Users\juano\Desktop\Analista Programador\RAPS\Programación I\Garage_UI\bin\Garage_Data.pdb
+C:\Users\juano\Desktop\Analista Programador\RAPS\Programación I\Garage_UI\obj\Debug\Garage_UI.csproj.Up2Date
+C:\Users\juano\Desktop\Analista Programador\RAPS\Programación I\Garage_UI\obj\Debug\Garage_UI.dll
+C:\Users\juano\Desktop\Analista Programador\RAPS\Programación I\Garage_UI\obj\Debug\Garage_UI.pdb
