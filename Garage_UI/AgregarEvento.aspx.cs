@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Garage_UI
 {
-    public partial class AgregarEvento : System.Web.UI.Page
+    public partial class AgregarEvento : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -16,7 +16,8 @@ namespace Garage_UI
 
         protected void ddlTipoEvento_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+            pnlConcierto.Visible = (ddlTipoEvento.SelectedValue == "Concierto");
+            pnlExposicion.Visible = (ddlTipoEvento.SelectedValue == "Exposicion");
         }
 
         protected void btnAgregar_Click(object sender, EventArgs e)
