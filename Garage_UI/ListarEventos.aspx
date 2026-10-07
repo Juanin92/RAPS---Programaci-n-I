@@ -9,7 +9,6 @@
 
     <asp:GridView ID="gvEventos" runat="server" AutoGenerateColumns="False" DataKeyNames="Id" OnSelectedIndexChanged="gvEvento_SelectedIndexChanged">
         <Columns>
-            <asp:BoundField DataField="Id" HeaderText="ID"/>
             <asp:BoundField DataField="Nombre" HeaderText="Nombre del Evento"/>
             <asp:BoundField DataField="Fecha" HeaderText="Fecha" DataFormatString="{0:dd/MM/yyyy}"/>
             <asp:BoundField DataField="Direccion" HeaderText="Dirección"/>

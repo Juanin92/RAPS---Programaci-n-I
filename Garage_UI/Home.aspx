@@ -1,4 +1,4 @@
-<%@ Page Title="Inicio" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireUp="true" CodeBehind="Home.aspx.cs" Inherits="Garage_UI.Home"%>
+﻿<%@ Page Title="Inicio" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireUp="true" CodeBehind="Home.aspx.cs" Inherits="Garage_UI.Home"%>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 

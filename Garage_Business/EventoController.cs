@@ -17,7 +17,7 @@ namespace Garage_Business
                 {
                     ConciertoEntity conciertoEntity = new ConciertoEntity
                     {
-                        Id = concierto.Id,
+                        Id = string.IsNullOrEmpty(concierto.Id) ? Guid.NewGuid().ToString() : concierto.Id,
                         Nombre = concierto.Nombre,
                         Fecha = concierto.Fecha,
                         Direccion = concierto.Direccion,
@@ -31,7 +31,7 @@ namespace Garage_Business
                 {
                     ExposicionEntity exposicionEntity = new ExposicionEntity
                     {
-                        Id = exposicion.Id,
+                        Id = string.IsNullOrEmpty(exposicion.Id) ? Guid.NewGuid().ToString() : exposicion.Id,
                         Nombre = exposicion.Nombre,
                         Fecha = exposicion.Fecha,
                         Direccion = exposicion.Direccion,

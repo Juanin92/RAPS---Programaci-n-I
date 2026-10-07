@@ -30,7 +30,7 @@
         <tr>
             <td>Fecha:</td>
             <td>
-                <asp:TextBox ID="txtFecha" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtFecha" runat="server" TextMode="Date" CssClass="form-control"></asp:TextBox>
                 <asp:RequiredFieldValidator
                     ID="rfvFecha"
                     runat="server"
