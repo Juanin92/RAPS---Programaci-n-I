@@ -29,7 +29,7 @@ namespace Garage_UI
             gvEventos.DataBind();
         }
 
-        protected void gvEventos_SelectedIndexChanged(object sender, EventArgs e)
+        protected void gvEvento_SelectedIndexChanged(object sender, EventArgs e)
         {
             string idSeleccionado = gvEventos.SelectedDataKey.Value.ToString();
 

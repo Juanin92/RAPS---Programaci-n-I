@@ -7,7 +7,7 @@
     <asp:Label ID="lblMensaje" runat="server" ForeColor="Green" Font-Bold="true"></asp:Label>
     <br /><br />
 
-    <asp:GridView ID="gvEventos" runat="server" AutoGenerateColums="False" DataKeyNames="Id" OnSelectedIndexChanged="gvEvento_SelectedIndexChanged">
+    <asp:GridView ID="gvEventos" runat="server" AutoGenerateColumns="False" DataKeyNames="Id" OnSelectedIndexChanged="gvEvento_SelectedIndexChanged">
         <Columns>
             <asp:BoundField DataField="Id" HeaderText="ID"/>
             <asp:BoundField DataField="Nombre" HeaderText="Nombre del Evento"/>
@@ -15,7 +15,7 @@
             <asp:BoundField DataField="Direccion" HeaderText="Dirección"/>
             <asp:BoundField DataField="Precio" HeaderText="Precio" DataFormatString="{0:C0}"/>
 
-            <asp:CommandField ShowSelectedButton="True" SelectText="Ver Detalle" HeaderText="Acciones"/>
+            <asp:CommandField ShowSelectButton="True" SelectText="Ver Detalle" HeaderText="Acciones"/>
         </Columns>
     </asp:GridView>
 </asp:Content>
