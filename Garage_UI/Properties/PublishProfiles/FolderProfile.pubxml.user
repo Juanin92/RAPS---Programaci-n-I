@@ -3,7 +3,7 @@
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\juano\Desktop\garage_deploy_juan_claveria</_PublishTargetUrl>
-    <History>True|2026-10-07T20:27:51.9838236Z||;</History>
+    <History>True|2026-10-07T23:59:15.2106390Z||;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
@@ -35,10 +35,10 @@
       <publishTime>10/07/2026 17:27:47</publishTime>
     </File>
     <File Include="bin/Garage_UI.dll">
-      <publishTime>10/07/2026 17:27:48</publishTime>
+      <publishTime>10/07/2026 20:59:12</publishTime>
     </File>
     <File Include="bin/Garage_UI.pdb">
-      <publishTime>10/07/2026 17:27:48</publishTime>
+      <publishTime>10/07/2026 20:59:12</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
       <publishTime>07/30/2013 12:57:30</publishTime>
@@ -464,7 +464,7 @@
       <publishTime>09/24/2026 20:27:04</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/07/2026 17:27:50</publishTime>
+      <publishTime>10/07/2026 20:59:14</publishTime>
     </File>
     <File Include="Web.sitemap">
       <publishTime>09/24/2026 18:48:46</publishTime>
